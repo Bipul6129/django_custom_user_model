@@ -15,3 +15,5 @@ class AccountAdmin(UserAdmin):
     fieldsets =()
 
 admin.site.register(Account,AccountAdmin)
+
+#add AUTH_USER_MODEL = 'account.Account' on settings.py
